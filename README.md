@@ -8,7 +8,7 @@ Developing this password account management system is an essential thing because
 
 
 
-In this project I am aiming to create a simple, secure, and user-friendly password management system accessible via a web browser. The website will hopefully allow individuals to store, manage, and assess their passwords for different accounts efficiently. 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
