@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Password Account Management</h1>
+    
+    <form id="accountForm">
+        <input type="text" id="username" placeholder="Username" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <span id="strength"></span>
+        <button type="submit">Save Account</button>
+    </form>
+
+    <h2>Stored Accounts</h2>
+    <ul id="accountList"></ul>
+    
+    <button id="exportJson">Export JSON</button>
+    <input type="file" id="importJson" accept=".json">
+    
+    <script src="app.js"></script>
+</body>
+</html>
