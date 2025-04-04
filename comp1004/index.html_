@@ -20,6 +20,6 @@
     
     <div id="passwordStrength"></div>
     
-    <script src="main.js"></script>
+    <script src="comp1004/main.js"></script>
 </body>
 </html>
