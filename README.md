@@ -9,3 +9,27 @@ Developing this password account management system is an essential thing because
 
 
 In this project I am aiming to create a simple, secure, and user-friendly password management system accessible via a web browser. The website will hopefully allow individuals to store, manage, and assess their passwords for different accounts efficiently. 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Manager</title>
+</head>
+<body>
+    <h1>Password Account Management System</h1>
+    
+    <form id="loginForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        
+        <button type="submit">Login</button>
+    </form>
+    
+    <div id="passwordStrength"></div>
+    
+</body>
+</html>
